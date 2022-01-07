@@ -1,0 +1,34 @@
+import 'package:flutter/material.dart';
+
+class SecondScreen extends StatefulWidget {
+  const SecondScreen({Key? key, required this.username}) : super(key: key);
+
+  final String username;
+
+  @override
+  _SecondScreenState createState() => _SecondScreenState();
+}
+
+class _SecondScreenState extends State<SecondScreen> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text("Welcome @ ${widget.username}", style: TextStyle(fontSize: 30),),
+            SizedBox(
+              height: 10,
+            ),
+            ElevatedButton(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                child: Text("Logout"))
+          ],
+        ),
+      ),
+    );
+  }
+}

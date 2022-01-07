@@ -1,0 +1,42 @@
+void main() {
+  
+  var numLine = ["a","b","c","d","e","f","g","h","i","j","k",
+                  "l","m","n","o","p","q","r","s","t","u","v","w",
+                 "x","y","z"];
+  
+  String word3 = "pin";
+  String word4 = "link";
+  String word5 = "plank";
+  
+  int sumof3 = 0;
+  int sumof4 = 0;
+  int sumof5 = 0;
+  
+  double finalAnswer = 0;
+  
+  word3.split('').forEach((ch) {
+    sumof3 += (numLine.indexOf(ch.toString()) + 1);
+  });
+  word4.split('').forEach((ch) {
+    sumof4 += (numLine.indexOf(ch.toString()) + 1);
+  });
+  word5.split('').forEach((ch) {
+    sumof5 += (numLine.indexOf(ch.toString()) + 1);
+  });
+  
+  finalAnswer = (sumof3 * sumof4) / sumof5;
+  
+  print("I picked: $word3, $word4, $word5");
+  print("Sum: $sumof3, $sumof4, $sumof5");
+  print("Final Answer: $finalAnswer");
+  
+  
+  //print(sumof3);
+  //print(sumof4);
+  //print(sumof5);
+  //print(finalAnswer);
+  //print(numLine.indexOf('a'));
+  
+  
+ 
+}

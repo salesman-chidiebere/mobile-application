@@ -1,0 +1,26 @@
+https://developer.android.com/studio
+
+C:\Users\cedeh\AppData\Local\Android\cmdline-tools\tools\latest\bin
+
+sdkmanager
+
+sdkmanager "platform-tools" "platforms;android-29" "system-images;android-29;google_apis;x86_64"
+
+C:\Users\cedeh\AppData\Local\Android\Sdk\emulator
+
+avdmanager create avd -n AVDv10 -k "system-images;android-29;google_apis;x86_64"
+
+avdmanager list avd
+
+emulator @AVDv10
+
+
+
+cmdline-tools
+latest
+C:\Users\cedeh\AppData\Local\Android\Sdk\cmdline-tools\latest\bin
+C:\Users\cedeh\AppData\Local\Android\Sdk\emulator
+
+
+
+

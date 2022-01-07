@@ -1,0 +1,39 @@
+CODE HUNT
+
+
+Write down the name of any color of your choice (e.g. blue);
+Write down the name of any fruit of your choice (e.g. orange);
+Join the two words together (e.g. blueorange);
+From the two words joined together:
+   form 3 new words with 3 letters each (e.g. from blueorange: ran, age, rage)
+   form 4 new words with 4 letters each (e.g. from blueorange: rang, ...)
+   form 5 new words with 5 letters each (e.g. from blueorange: range, .....)
+
+Pick a word from the 3 letter words, pick another from the 4 letter words, 
+and pick the another word from the 5 letter words (e.g. age, rang, range.)
+
+Put each word on a numberline (a=1, b=2, c=3, ..., f=6, ..., i=9...)
+
+Get the sum of the corresponding number value for each word (e.g age = 13)
+
+Repeat the above step for all the words you picked (e.i. age= 13, rang=?, range=?)
+
+Multiply the value of the 3 letter word by 4 letter word and divide the 5 letter word you choose
+(e.g. 13x(value of rang)/(value of range))
+
+Write down you final answer.
+
+What you are to submit... (your answer should be like this)
+
+Blue
+Orange
+BlueOrange
+(ran, age, rage)
+(rang, ...., ....)
+(range, ....., .....)
+I pick: age, rang, range
+Sum: 13, ?, ?
+Final Answer = (your final answer).
+
+
+
